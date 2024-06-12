@@ -13,17 +13,13 @@
             for (let i = 0; i < a.length; i++) {
                 if (a[i] > b[i]) {
                     Alice++;
-                    console.log("Alice increment", Alice);
                 } else if (a[i] < b[i]) {
                     Bob++;
-                    console.log("Bob increment", Bob);
-                } else {
-                    console.log('None');
                 }
             }
+            console.log(Alice, Bob);
         }
-        compareArrays([10, 2], [20, 30]);
-        compareArrays([12, 4], [5, 8]);
+        compareArrays([17, 28, 30], [99, 16, 8]); 
     </script>  
 </body>
 </html>
